@@ -34,7 +34,11 @@ CREATE TABLE IF NOT EXISTS `admins` (
   `email` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `password` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8mb4_general_ci;
+=======
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+>>>>>>> a440604 (Fixed collation error in SQL file for XAMPP compatibility)
 
 --
 -- Dumping data for table `admins`
@@ -57,7 +61,11 @@ CREATE TABLE IF NOT EXISTS `messages` (
   `number` varchar(10) NOT NULL,
   `message` varchar(1000) NOT NULL,
   PRIMARY KEY (`id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8mb4_general_ci;
+=======
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+>>>>>>> a440604 (Fixed collation error in SQL file for XAMPP compatibility)
 
 -- --------------------------------------------------------
 
@@ -106,7 +114,11 @@ CREATE TABLE IF NOT EXISTS `property` (
   `description` varchar(1000) NOT NULL,
   `date` date NOT NULL,
   PRIMARY KEY (`id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8mb4_general_ci;
+=======
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+>>>>>>> a440604 (Fixed collation error in SQL file for XAMPP compatibility)
 
 --
 -- Dumping data for table `property`
@@ -132,7 +144,11 @@ CREATE TABLE IF NOT EXISTS `requests` (
   `receiver` varchar(20) NOT NULL,
   `date` date NOT NULL,
   PRIMARY KEY (`id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8mb4_general_ci;
+=======
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+>>>>>>> a440604 (Fixed collation error in SQL file for XAMPP compatibility)
 
 -- --------------------------------------------------------
 
@@ -146,7 +162,11 @@ CREATE TABLE IF NOT EXISTS `saved` (
   `property_id` varchar(20) NOT NULL,
   `user_id` varchar(20) NOT NULL,
   PRIMARY KEY (`id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8mb4_general_ci;
+=======
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+>>>>>>> a440604 (Fixed collation error in SQL file for XAMPP compatibility)
 
 --
 -- Dumping data for table `saved`
@@ -169,7 +189,11 @@ CREATE TABLE IF NOT EXISTS `users` (
   `email` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8 COLLATE=utf8mb4_general_ci;
+=======
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+>>>>>>> a440604 (Fixed collation error in SQL file for XAMPP compatibility)
 
 --
 -- Dumping data for table `users`
